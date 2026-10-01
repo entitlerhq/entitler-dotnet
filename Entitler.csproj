@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Entitler</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>1843 Inc.</Authors>
+    <Description>Official Entitler SDK for .NET (not yet available)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://entitler.co</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/entitlerhq/entitler-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
